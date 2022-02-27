@@ -153,7 +153,8 @@
     <ClCompile Include="..\..\fortrantest\oldf7701.c" />
     <ClCompile Include="..\..\fortrantest\oldf7702.c" />
     <ClCompile Include="..\..\fortrantest\oldf7703.c" />
-    <ClCompile Include="..\..\fortrantest\zzz-main.c" />
+    <ClCompile Include="..\..\fortrantest\oldf7704.c" />
+    <ClCompile Include="zzz-mainapp.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

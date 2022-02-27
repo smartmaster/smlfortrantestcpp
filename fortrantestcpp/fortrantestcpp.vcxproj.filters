@@ -38,7 +38,10 @@
     <ClCompile Include="..\..\fortrantest\oldf7703.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\fortrantest\zzz-main.c">
+    <ClCompile Include="zzz-mainapp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fortrantest\oldf7704.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
