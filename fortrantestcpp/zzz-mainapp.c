@@ -8,7 +8,7 @@
 
 int main(int atgc, char** argv)
 {
-
+	
 	integer ii1 = 100;
 	char cc1[] = "helloooo";
 	longint ii2 = 200;
@@ -18,6 +18,10 @@ int main(int atgc, char** argv)
 	ftnlen cc1_len = sizeof(cc1) - 1;
 	ftnlen cc2_len = sizeof(cc2) - 1;
 
+	char strarr[5][15];
+	integer strarrlen = 5;
+
+
 	const int loop = 3;
 	for (int ii = 0; ii < loop; ++ii)
 	{
@@ -26,6 +30,7 @@ int main(int atgc, char** argv)
 		oldf7702_();
 		oldf7703_();
 		oldf7704_(&ii1, cc1, &ii2, cc2, arr, &arrlen, cc1_len, cc2_len);
+		oldf7705_((char*)strarr, &strarrlen, 15);
 	}
 
 	return 0;

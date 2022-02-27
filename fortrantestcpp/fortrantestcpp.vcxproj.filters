@@ -44,5 +44,8 @@
     <ClCompile Include="..\..\fortrantest\oldf7704.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\fortrantest\oldf7705.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
